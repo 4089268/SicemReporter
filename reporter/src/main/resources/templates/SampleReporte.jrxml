@@ -1,0 +1,43 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Blank_Letter_Landscape_Table_Based" language="java" pageWidth="792" pageHeight="612" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7298bbfa-ec6b-43a4-83b1-11b06dd82731">
+	<property name="template.engine" value="tabular_template"/>
+	<style name="Table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+			<topPen lineWidth="1.0" lineColor="#000000"/>
+			<leftPen lineWidth="1.0" lineColor="#000000"/>
+			<bottomPen lineWidth="1.0" lineColor="#000000"/>
+			<rightPen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<dataset name="tableDataset" uuid="28290edf-1c8e-46bc-a595-0f4318aa8e7e">
+		<query language="sql"><![CDATA[]]></query>
+	</dataset>
+	<query language="sql"><![CDATA[]]></query>
+	<title height="89" splitType="Stretch">
+		<element kind="image" uuid="17304569-b9b8-44b2-8fce-4a6f2196d2dd" x="-11" y="10" width="211" height="50">
+			<expression><![CDATA["http://nerus.com.mx/politica/images/logo_arquos_512White.png"]]></expression>
+		</element>
+		<element kind="staticText" uuid="07807005-631d-4c4c-b200-295dab2c72fb" x="220" y="7" width="319" height="60" fontName="Bookman Old Style" fontSize="29.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Invitacion de Pago]]></text>
+		</element>
+	</title>
+	<detail>
+		<band height="330">
+			<element kind="staticText" uuid="4271c2ac-43ec-4379-8911-d1dd839d71b8" x="2" y="10" width="740" height="70" fontSize="18.0" hTextAlign="Left">
+				<text><![CDATA[Nos dirigimos a usted con la finalidad de informarle que en nuestro sistema figura un saldo pendiente asociado a su cuenta con nosotros. A continuación, detallamos la información correspondiente:]]></text>
+			</element>
+			<element kind="staticText" uuid="ffe9cf30-4be5-4487-b6ab-23cf4c2e85d7" x="2" y="94" width="740" height="70" fontSize="18.0" hTextAlign="Left">
+				<text><![CDATA[Número de cuenta: [Número de cuenta]
+Monto adeudado: [Monto en moneda local]
+Fecha límite de pago: [Fecha]]]></text>
+			</element>
+			<element kind="staticText" uuid="926b78eb-bf3f-4177-b7a8-9bffe96f0065" x="2" y="180" width="740" height="70" fontSize="18.0" hTextAlign="Left">
+				<text><![CDATA[Le recordamos que es importante regularizar esta situación antes de la fecha indicada para evitar cargos adicionales o posibles interrupciones en el servicio.]]></text>
+			</element>
+			<element kind="staticText" uuid="33846657-aa77-4cd3-aec7-dad212f369f5" x="2" y="260" width="740" height="70" fontSize="18.0" hTextAlign="Left">
+				<text><![CDATA[En caso de que ya haya realizado el pago o tenga alguna duda respecto a este aviso, le pedimos ponerse en contacto con nosotros al teléfono [Teléfono de contacto] o al correo electrónico [Correo electrónico de contacto].]]></text>
+			</element>
+		</band>
+	</detail>
+</jasperReport>
